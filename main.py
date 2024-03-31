@@ -21,8 +21,8 @@ scopes = ['https://www.googleapis.com/auth/calendar']
 app.secret_key = 'Amazon'  # set a secret key for session management
 cnx = mysql.connector.connect(
     user='root',
-    password='Root1234',
-    host='db1.cda6emiuui0c.ap-south-1.rds.amazonaws.com',
+    password='root1234',
+    host='stackdb-02-masterdb-ap69ncgbzsu3.cjeo2c4qygzv.us-east-1.rds.amazonaws.com',
     database='db1'
 )
 
